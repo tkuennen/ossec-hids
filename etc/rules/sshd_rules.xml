@@ -90,7 +90,7 @@
     <description>Useless/Duplicated SSHD message without a user/ip.</description>
   </rule>
 
-  <rule id="5712" level="10" frequency="6" timeframe="120" ignore="60">
+  <rule id="5712" level="10" frequency="3" timeframe="120" ignore="60">
     <if_matched_sid>5710</if_matched_sid>
     <description>SSHD brute force trying to get access to </description>
     <description>the system.</description>
